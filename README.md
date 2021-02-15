@@ -28,8 +28,9 @@ Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang konce
 4. Månedens skole
 5. Kort u. knap
 6. Kort m. knap
-7. Footer
-8. knap
+7. Fakta box
+8. Footer
+9. knap
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
