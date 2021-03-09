@@ -27,7 +27,7 @@ Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang konce
 3. Fakta box
 4. Footer
 5. Læs mere knap
-6. Responsiv
+6. Hero
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
