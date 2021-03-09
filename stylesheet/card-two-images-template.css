@@ -1,0 +1,31 @@
+.card-two-article-template img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.height_210px {
+  height: 210px;
+}
+
+.height_208px {
+  height: 208px;
+}
+
+.height_176px {
+  height: 176px;
+}
+
+.height_258px {
+  height: 258px;
+}
+
+.height_170px_padding {
+  height: 170px;
+  padding: 0 1.5rem;
+}
+
+.height_360px {
+  height: 360px;
+}

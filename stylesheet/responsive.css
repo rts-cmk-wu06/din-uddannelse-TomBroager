@@ -1,0 +1,258 @@
+@media (min-width: 31.25rem) {
+  body {
+    margin: 0 auto;
+  }
+
+  /* utilities */
+
+  .desktop-headline-text-line-break {
+    display: flex;
+  }
+
+  /* responsive header and navigation - start */
+  header.header-style {
+    min-height: 80px;
+    padding: 0.75rem 2rem;
+    box-sizing: border-box;
+  }
+
+  div.home-button img {
+    width: 188px;
+  }
+
+  div.mobile-menu-button {
+    display: none;
+  }
+  
+  nav.header-dropdown-menu {
+    flex: 0 1 40%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  nav.header-dropdown-menu ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  /* responsive header and navigation - end */
+
+  /* responsive hero - start */
+  section.hero {
+    min-height: 32.5rem;
+  }
+
+  section.hero h1 {
+    font-size: 3rem;
+  }
+
+  section.hero form {
+    width: 37.813rem;
+    margin-top: 1.5rem;
+  }
+  /* responsive hero - end */
+
+  /* ----- responsive front page - start ----- */
+
+  /* article maanedens skole - start */
+  section.card-one-template {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+
+  section.card-one-template figure {
+    width: 348px;
+    height: 380px;
+  }
+
+  .card-one-template figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box;
+  }
+
+  section.card-one-template article {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.card-one-template article h2 {
+    font-size: 3rem;
+  }
+
+  section.card-one-template article div.button-position {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* article maanedens skole - end */
+
+  /* article far far away 1 og 2 - start */
+  section.responsive-card-two-v1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem 2rem;
+    gap: 2rem 0rem;
+  }
+
+  section.responsive-card-two-v1 figure {
+    width: 480px;
+    height: 300px;
+  }
+
+  section.responsive-card-two-v1 article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 0 2rem;
+  }
+
+  section.responsive-card-two-v1 article h2 {
+    font-size: 3rem;
+  }
+  /* article far far away 1 og 2 - end */
+
+  /* ----- responsive front page - end ----- */
+
+  /* ----- responsive article page - start ----- */
+  .height_208px {
+    height: 520px;
+  }
+
+  .card-two-article-template article.article-padding {
+    padding: 3.5rem 11.063rem 2rem;
+  }
+
+  .card-two-article-template article h1 {
+    font-size: 3rem;
+  }
+
+  .height_176px {
+    height: 378px;
+  }
+  /* ----- responsive article page - end ----- */
+
+  /* ----- responsive school portrait page - start ----- */
+  section.section-wrapper_1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem 0;
+  }
+
+  section.section-wrapper_1 figure {
+    width: 632px;
+    height: 453px;
+    order: 1;
+  }
+
+  section.section-wrapper_1 header {
+    flex-basis: 100%;
+    padding: 2rem 0;
+  }
+
+  section.section-wrapper_1 header h1 {
+    font-size: 2.5rem;
+  }
+
+  section.section-wrapper_1 article {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 0 1.5rem 0 0;
+  }
+
+  section.section-wrapper_1 div.button-position {
+    display: flex;
+    flex-basis: 100%;
+  }
+
+  section.section-wrapper_1 div.button-position a {
+    margin: 0;
+  }
+
+  /* ----------------------- */
+
+  section.responsive-card-two-v2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+  }
+
+  section.responsive-card-two-v2 div.wrapper-1 {
+    width: 304px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.responsive-card-two-v2 figure {
+    height: 167px;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  section.responsive-card-two-v2 article {
+    padding: 0;
+  }
+
+  /* ----- responsive school portrait page - end ----- */
+
+  /* ----- responsive school details page - start ----- */
+
+  section.box-wrapper2 {
+    max-height: 65rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  section.box-wrapper2 figure {
+    width: 420px;
+    height: 420px;
+  }
+
+  section.box-wrapper2 aside {
+    margin: 0;
+    padding: 1.5rem;
+    width: 420px;
+    box-sizing: border-box;
+  }
+
+  section.box-wrapper2 article {
+    width: 510px;
+    order: 1;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  aside.faktabox article {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  aside.faktabox article h3 {
+    font-size: 2rem;
+  }
+
+  /* ----- responsive school details page - end ----- */
+
+  /* ----- responsive footer - start ----- */
+
+  .footer-template {
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.875rem 2rem 0.813rem;
+  }
+  /* ----- responsive footer - end ----- */
+}

@@ -1,0 +1,15 @@
+a.laes-mere {
+  width: 157px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  background-color: #c40000;
+  border-radius: 25px;
+  border: none;
+  margin-top: 2rem;
+}

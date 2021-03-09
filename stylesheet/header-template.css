@@ -1,0 +1,53 @@
+header.header-style {
+  min-height: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background-color: #c40000;
+}
+
+div.home-button {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+div.home-button img {
+  width: 130px;
+  box-sizing: border-box;
+}
+
+div.mobile-menu-button {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+div.mobile-menu-button i {
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+nav.header-dropdown-menu {
+  display: flex;
+  display: none;
+  flex-basis: 100%;
+}
+
+nav.header-dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav.header-dropdown-menu a {
+  text-decoration: none;
+}

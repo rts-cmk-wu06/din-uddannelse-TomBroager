@@ -1,0 +1,13 @@
+.card-two-article-template article {
+  padding: 1.5rem 1.5rem 2rem;
+}
+
+.card-two-article-template div.button-position {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* utilities */
+.card-two-article-template div.no-button {
+  display: none;
+}

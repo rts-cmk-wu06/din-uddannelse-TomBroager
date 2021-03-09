@@ -1,0 +1,36 @@
+.card-three-template {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-three-template figure {
+  height: 258px;
+}
+
+.card-three-template img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.card-three-template header {
+  padding: 1.5rem 1.5rem 1rem;
+  word-break: break-word;
+  box-sizing: border-box;
+  
+}
+
+.card-three-template article {
+  padding: 0 1.5rem 2rem;
+}
+
+.card-three-template div.button-position {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* utilities */
+.card-three-template div.no-button {
+  display: none;
+}

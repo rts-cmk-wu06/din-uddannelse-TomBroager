@@ -1,0 +1,9 @@
+aside.faktabox {
+  background-color: #8b7b7b;
+  color: white;
+  margin: 0 1.5rem 2rem;
+}
+
+.desktop-br {
+  display: none;
+}

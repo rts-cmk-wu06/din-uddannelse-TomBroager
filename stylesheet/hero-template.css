@@ -1,0 +1,40 @@
+/* hero style */
+
+section.hero {
+  min-height: 13.125rem;
+  background-image: url(..//img/pulsen-8_1024x520px.jpg);
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Search bar hero style */
+
+section.hero h1 {
+  color: white;
+  text-align: center;
+}
+
+section.hero form {
+  display: flex;
+  width: 14.813rem;
+  height: 2.813rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+input.search-bar-hero {
+  flex: 1;
+  border: 1px solid #c40000;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 40px;
+}
+
+i.fa-search {
+  position: absolute;
+  transform: translate(100%, +100%);
+}

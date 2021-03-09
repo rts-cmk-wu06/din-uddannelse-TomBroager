@@ -1,0 +1,39 @@
+.card-one-template {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+}
+
+.card-one-template header {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.card-one-template figure {
+  width: 100%;
+  height: 336px;
+  box-sizing: border-box;
+}
+
+.card-one-template figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+}
+
+.card-one-template article {
+  padding: 1.5rem 1rem 2rem;
+}
+
+.card-one-template article div.button-position {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
