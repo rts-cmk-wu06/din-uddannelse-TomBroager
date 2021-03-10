@@ -1,6 +1,6 @@
 .footer-template {
   height: 175px;
-  background-color: #5d4646;
+  background-color: var(--footer-color);
   color: white;
   padding: 1.875rem 1.5rem 0.813rem;
   box-sizing: border-box;

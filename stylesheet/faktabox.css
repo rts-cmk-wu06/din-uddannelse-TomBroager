@@ -1,5 +1,5 @@
 aside.faktabox {
-  background-color: #8b7b7b;
+  background-color: var(--faktabox-color);
   color: white;
   margin: 0 1.5rem 2rem;
 }

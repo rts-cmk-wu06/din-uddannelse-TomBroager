@@ -2,22 +2,18 @@ body {
   margin: 0 auto;
 }
 
-/* backgrounds-color theme style */
+/* color theme styles */
 
-.hex-f1ebeb {
-  background-color: #f1ebeb;
+:root {
+  --main-color-theme: #c40000;
 }
 
-.hex-c40000 {
-  background-color: #c40000;
+:root {
+  --footer-color: #5d4646;
 }
 
-.hex-5d4646 {
-  background-color: #5d4646;
-}
-
-.hex-8b7b7b {
-  background-color: #8b7b7b;
+:root {
+  --faktabox-color: #8b7b7b;
 }
 
 /* font style */

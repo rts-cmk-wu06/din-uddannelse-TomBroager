@@ -11,6 +11,7 @@
   align-items: center;
   color: white;
   padding: 0 1rem;
+  background-color: var(--main-color-theme);
   box-sizing: border-box;
 }
 
@@ -29,6 +30,7 @@
 }
 
 .card-one-template article {
+  background-color: #f1ebeb;
   padding: 1.5rem 1rem 2rem;
 }
 
