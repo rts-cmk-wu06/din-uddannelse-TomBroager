@@ -1,5 +1,6 @@
 @media (min-width: 31.25rem) {
-  body {
+  main {
+    width: 1024px;
     margin: 0 auto;
   }
 
@@ -11,6 +12,7 @@
 
   /* responsive header and navigation - start */
   header.header-style {
+    min-width: 1024px;
     min-height: 80px;
     padding: 0.75rem 2rem;
     box-sizing: border-box;
@@ -40,7 +42,10 @@
 
   /* responsive hero - start */
   section.hero {
+    min-width: 1024px;
     min-height: 32.5rem;
+    background-position: top;
+    background-size: cover;
   }
 
   section.hero h1 {
@@ -248,6 +253,7 @@
   /* ----- responsive footer - start ----- */
 
   .footer-template {
+    min-width: 1024px;
     height: 219px;
     display: flex;
     flex-direction: column;
